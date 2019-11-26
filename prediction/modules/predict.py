@@ -78,31 +78,9 @@ def run(argv=None):
                       help='Data source location (cs|bq).')
   known_args, pipeline_args = parser.parse_known_args(argv)
 
-  if known_args.source == 'cs':
-    def _to_dictionary(line):
-      result = {}
-      result['key'], result['image'] = line.split(':')
-      return result
+  print (known_args.input)
+  print (known_args.output)
+  print (known_args.model)
+  print (known_args.source)
 
-    p = beam.Pipeline(argv=pipeline_args)
-    images = (p | 'ReadFromText' >> beam.io.ReadFromText(known_args.input)
-              | 'ConvertToDict'>> beam.Map(_to_dictionary))
-    predictions = images | 'Prediction' >> beam.ParDo(PredictDoFn(), known_args.model)
-    predictions | 'WriteToText' >> beam.io.WriteToText(known_args.output)
-
-  else:
-    schema = 'key:INTEGER'
-    for i in range(10):
-      schema += (', pred%d:FLOAT' % i)
-    p = beam.Pipeline(argv=pipeline_args)
-    images = p | 'ReadFromBQ' >> beam.io.Read(beam.io.BigQuerySource(known_args.input))
-    predictions = images | 'Prediction' >> beam.ParDo(PredictDoFn(), known_args.model)
-    predictions | 'WriteToBQ' >> beam.io.Write(beam.io.BigQuerySink(
-        known_args.output,
-        schema=schema,
-        create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
-        write_disposition=beam.io.BigQueryDisposition.WRITE_TRUNCATE))
-
-  logging.getLogger().setLevel(logging.INFO)
-  p.run()
 

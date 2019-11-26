@@ -1,3 +1,5 @@
+PROJECT=$(gcloud config list project --format "value(core.project)")
+BUCKET=gs://$PROJECT-dataflow
 python prediction/run.py \
     --runner DataflowRunner \
     --project $PROJECT \
