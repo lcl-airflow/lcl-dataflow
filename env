@@ -2,4 +2,6 @@ PROJECT=$(gcloud config list project --format "value(core.project)")
 BUCKET=gs://$PROJECT-dataflow
 
 alias ga="git add ."
-alias gm="git commit -m '`date -u`'"
+
+alias gm="git commit -m '`date -u $MESSAGE`'"
+alias gp="git push origin master"
