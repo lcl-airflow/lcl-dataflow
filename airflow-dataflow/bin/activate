@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/cloud_user_p_31a01a/dataflow-prediction-example/airflow-dataflow"
+VIRTUAL_ENV="/home/cloud_user_p_f396ac/lcl-dataflow/airflow-dataflow"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

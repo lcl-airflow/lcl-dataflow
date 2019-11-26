@@ -10,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/cloud_user_p_31a01a/dataflow-prediction-example/airflow-dataflow"
+setenv VIRTUAL_ENV "/home/cloud_user_p_f396ac/lcl-dataflow/airflow-dataflow"
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
