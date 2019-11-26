@@ -8,4 +8,6 @@ gsutil cp data/images.txt $BUCKET/input/
 python3 -m virtualenv airflow-dataflow
 source airflow-dataflow/bin/activate
 pip install apache-beam[gcp]
+git config --global user.email "herman.cheung@loblaw.ca"
+git config --global user.name "lcl-airflow"
 
