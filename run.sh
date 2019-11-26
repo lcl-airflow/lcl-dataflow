@@ -9,3 +9,4 @@ python prediction/run.py \
     --source cs \
     --input $BUCKET/input/images.txt \
     --output $BUCKET/output/predict
+    

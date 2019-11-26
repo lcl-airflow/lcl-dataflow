@@ -9,3 +9,4 @@ git clone https://github.com/GoogleCloudPlatform/dataflow-prediction-example
 python -m virtualenv airflow-dataflow
 source airflow-dataflow/bin/activate
 pip install apache-beam[gcp]
+
