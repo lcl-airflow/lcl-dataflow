@@ -6,9 +6,7 @@ python prediction/run.py \
     --staging_location $BUCKET/staging \
     --temp_location $BUCKET/temp \
     --job_name $PROJECT-prediction-cs \
-    --setup_file prediction/setup.py \
     --model $BUCKET/model \
-    --source cs \
     --input $BUCKET/input/images.txt \
     --output $BUCKET/output/predict
     

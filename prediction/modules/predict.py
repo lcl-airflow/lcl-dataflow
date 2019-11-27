@@ -21,30 +21,19 @@ import os
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 
-class MyOptions(PipelineOptions):
 
-  @classmethod
-  def _add_argparse_args(cls, parser):
-    parser.add_argument('--input', dest='input', required=True,
-                      help='Input file to process.')
-    parser.add_argument('--output', dest='output', required=True,
-                      help='Output file to write results to.')
-    parser.add_argument('--model', dest='model', required=True,
-                      help='Checkpoint file of the model.')
-    parser.add_argument('--source', dest='source', required=True,
-                      help='Data source location (cs|bq).')
 
 
 def run(argv=None):
   parser = argparse.ArgumentParser()
+  parser.add_argument('--input', dest='input', required=True,
+                      help='Input file to process.')
+  parser.add_argument('--output', dest='output', required=True,
+                      help='Output file to write results to.')
+  parser.add_argument('--model', dest='model', required=True,
+                      help='Checkpoint file of the model.')
+  parser.add_argument('--runner', dest='runner', required=True)
+  parser.add_argument('--project', dest='project', required=True)
   
-
-
-p = beam.Pipeline(options=MyOptions())
-
-print (p.options.input)
-print (p.options.output)
-print (p.options.model)
-print (p.options.source)
-
-
+  known_args, pipeline_args = parser.parse_known_args(argv)
+  print (  known_args )
