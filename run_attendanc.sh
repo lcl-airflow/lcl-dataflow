@@ -8,9 +8,7 @@ OUTPUT=gs://$PROJECT-demo/outputs/$OUT_FILENAME
 RUNNER=DataflowRunner
 REGION=us-east1
 MACHINE_TYPE=n1-standard-16
-echo $PROJECT
-echo $INPUT
-echo $OUTPUT
+
 
 python attendance.py --input $INPUT \
                      --output $OUTPUT \
