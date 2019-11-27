@@ -20,8 +20,7 @@ import os
 
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
-
-
+import apache_beam.io.gcp.pubsub as pubsub
 
 
 def run(argv=None):
@@ -33,7 +32,12 @@ def run(argv=None):
   parser.add_argument('--model', dest='model', required=True,
                       help='Checkpoint file of the model.')
   parser.add_argument('--runner', dest='runner', required=True)
-  parser.add_argument('--project', dest='project', required=True)
-  
+  parser.add_argument('--project', dest='project', required=True) 
   known_args, pipeline_args = parser.parse_known_args(argv)
-  print (  known_args )
+ 
+  p3 = beam.Pipeline()
+  lines1 = (p3
+           | "Create" >> beam.Create([1,2,3,4,5,6,7,8,9])
+           | beam.io.gcp.pubsub.WriteStringsToPubSub("projects/"+known_args.project+"/topics/topic")
+           )
+  p3.run()
