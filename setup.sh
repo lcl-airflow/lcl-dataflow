@@ -9,5 +9,5 @@ python3 -m virtualenv airflow-dataflow
 source airflow-dataflow/bin/activate
 pip install apache-beam[gcp]
 git config --global user.email $1
-git config --global user.name "lcl-airflow"
+git config --global user.name $2
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -C $1  -q -P ""
