@@ -7,6 +7,7 @@ $2 - git username - l**-air***
 
 ########
 Application 1:
+setup_a1.sh
 run_attendanc.sh -  Basic dataflow read gcs storage -> gcs storage
 
 
