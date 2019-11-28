@@ -1,0 +1,4 @@
+PROJECT=$(gcloud config list project --format "value(core.project)")
+SUB=my-subscription
+TOPIC=my-device-events
+SERVICE_ACCT=iot-user

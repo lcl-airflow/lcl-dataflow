@@ -1,10 +1,21 @@
- gcloud auth activate-service-account \
-  test1-299@playground-s-11-a067f9.iam.gserviceaccount.com \
-          --key-file=./playground-s-11-a067f9-01aad473b30d.json --project=playground-s-11-a067f9
+ echo "Create IOT Service Account"
+ gcloud iam service-accounts create $SERVICE_ACCT \
+    --description $SERVICE_ACCT \
+    --display-name $SERVICE_ACCT
+
+echo "Adding ROles to Service Account"
+
+gcloud projects add-iam-policy-binding $PROJECT \
+  --member serviceAccount:$SERVICE_ACCT@$PROJECT.iam.gserviceaccount.com \
+  --role roles/owner
+
+
+ 
+
  
  node cloudiot_mqtt_example_nodejs.js \
     mqttDeviceDemo \
-    --projectId=playground-s-11-a067f9 \
+    --projectId=$PROJECT \
     --cloudRegion=us-central1 \
     --registryId=my_registery \
     --deviceId=my-registry \
@@ -14,3 +25,6 @@
     --algorithm=RS256
 
 
+gcloud iam service-accounts create $SERVICE_ACCT \
+    --description "iot-test" \
+    --display-name "iot test user"
