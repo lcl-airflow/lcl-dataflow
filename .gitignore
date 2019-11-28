@@ -3,3 +3,4 @@
 *.egg-info
 data/images.txt
 /airflow-dataflow/
+MARA_20191007190003_0001.txt
