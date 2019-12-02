@@ -1,0 +1,1100 @@
+[ 
+{
+"description":"MATNR",
+"mode": "NULLABLE",
+"name":"MATNR",
+"type": "STRING"
+},
+{
+"description":"MATKL",
+"mode": "NULLABLE",
+"name":"MATKL",
+"type": "STRING"
+},
+{
+"description":"BRAND_ID",
+"mode": "NULLABLE",
+"name":"BRAND_ID",
+"type": "STRING"
+},
+{
+"description":"ZZPK_QTY",
+"mode": "NULLABLE",
+"name":"ZZPK_QTY",
+"type": "STRING"
+},
+{
+"description":"ZZSZ_QTY",
+"mode": "NULLABLE",
+"name":"ZZSZ_QTY",
+"type": "STRING"
+},
+{
+"description":"ZZBSE_UOM",
+"mode": "NULLABLE",
+"name":"ZZBSE_UOM",
+"type": "STRING"
+},
+{
+"description":"ZZCLUB_PK",
+"mode": "NULLABLE",
+"name":"ZZCLUB_PK",
+"type": "STRING"
+},
+{
+"description":"ZZCOLLG",
+"mode": "NULLABLE",
+"name":"ZZCOLLG",
+"type": "STRING"
+},
+{
+"description":"MTART",
+"mode": "NULLABLE",
+"name":"MTART",
+"type": "STRING"
+},
+{
+"description":"ATTYP",
+"mode": "NULLABLE",
+"name":"ATTYP",
+"type": "STRING"
+},
+{
+"description":"MSTAE",
+"mode": "NULLABLE",
+"name":"MSTAE",
+"type": "STRING"
+},
+{
+"description":"ZZORG_IND",
+"mode": "NULLABLE",
+"name":"ZZORG_IND",
+"type": "STRING"
+},
+{
+"description":"ZZPRD_TYPE",
+"mode": "NULLABLE",
+"name":"ZZPRD_TYPE",
+"type": "STRING"
+},
+{
+"description":"ZZSTD_UNT",
+"mode": "NULLABLE",
+"name":"ZZSTD_UNT",
+"type": "STRING"
+},
+{
+"description":"ZZAL_D_QUE",
+"mode": "NULLABLE",
+"name":"ZZAL_D_QUE",
+"type": "STRING"
+},
+{
+"description":"ZZAT_RSK",
+"mode": "NULLABLE",
+"name":"ZZAT_RSK",
+"type": "STRING"
+},
+{
+"description":"ZZARTIC_GRAD",
+"mode": "NULLABLE",
+"name":"ZZARTIC_GRAD",
+"type": "STRING"
+},
+{
+"description":"MEINS",
+"mode": "NULLABLE",
+"name":"MEINS",
+"type": "STRING"
+},
+{
+"description":"ZZBPC_FEA",
+"mode": "NULLABLE",
+"name":"ZZBPC_FEA",
+"type": "STRING"
+},
+{
+"description":"ZZ_CCDCN",
+"mode": "NULLABLE",
+"name":"ZZ_CCDCN",
+"type": "STRING"
+},
+{
+"description":"ZZCASE_RDY",
+"mode": "NULLABLE",
+"name":"ZZCASE_RDY",
+"type": "STRING"
+},
+{
+"description":"ZZCAT_MGR",
+"mode": "NULLABLE",
+"name":"ZZCAT_MGR",
+"type": "STRING"
+},
+{
+"description":"ZZCATCHWT",
+"mode": "NULLABLE",
+"name":"ZZCATCHWT",
+"type": "STRING"
+},
+{
+"description":"ZZPCK_CD",
+"mode": "NULLABLE",
+"name":"ZZPCK_CD",
+"type": "STRING"
+},
+{
+"description":"COLOR",
+"mode": "NULLABLE",
+"name":"COLOR",
+"type": "STRING"
+},
+{
+"description":"SIZE1",
+"mode": "NULLABLE",
+"name":"SIZE1",
+"type": "STRING"
+},
+{
+"description":"SIZE2",
+"mode": "NULLABLE",
+"name":"SIZE2",
+"type": "STRING"
+},
+{
+"description":"ZZCLIP_STP",
+"mode": "NULLABLE",
+"name":"ZZCLIP_STP",
+"type": "STRING"
+},
+{
+"description":"ZZCLOS_NUM",
+"mode": "NULLABLE",
+"name":"ZZCLOS_NUM",
+"type": "STRING"
+},
+{
+"description":"ZZCODETYPE",
+"mode": "NULLABLE",
+"name":"ZZCODETYPE",
+"type": "STRING"
+},
+{
+"description":"ZZCOLD_WR",
+"mode": "NULLABLE",
+"name":"ZZCOLD_WR",
+"type": "STRING"
+},
+{
+"description":"ZZCOMMODITY_FLAG",
+"mode": "NULLABLE",
+"name":"ZZCOMMODITY_FLAG",
+"type": "STRING"
+},
+{
+"description":"KUNNR",
+"mode": "NULLABLE",
+"name":"KUNNR",
+"type": "STRING"
+},
+{
+"description":"INHME",
+"mode": "NULLABLE",
+"name":"INHME",
+"type": "STRING"
+},
+{
+"description":"ZZCORPCORE",
+"mode": "NULLABLE",
+"name":"ZZCORPCORE",
+"type": "STRING"
+},
+{
+"description":"ERSDA",
+"mode": "NULLABLE",
+"name":"ERSDA",
+"type": "STRING"
+},
+{
+"description":"SATNR",
+"mode": "NULLABLE",
+"name":"SATNR",
+"type": "STRING"
+},
+{
+"description":"ZZC_STR",
+"mode": "NULLABLE",
+"name":"ZZC_STR",
+"type": "STRING"
+},
+{
+"description":"HERKL",
+"mode": "NULLABLE",
+"name":"HERKL",
+"type": "STRING"
+},
+{
+"description":"PROFL",
+"mode": "NULLABLE",
+"name":"PROFL",
+"type": "STRING"
+},
+{
+"description":"MSTDE",
+"mode": "NULLABLE",
+"name":"MSTDE",
+"type": "STRING"
+},
+{
+"description":"LAEDA",
+"mode": "NULLABLE",
+"name":"LAEDA",
+"type": "STRING"
+},
+{
+"description":"ZZDIET",
+"mode": "NULLABLE",
+"name":"ZZDIET",
+"type": "STRING"
+},
+{
+"description":"SPART",
+"mode": "NULLABLE",
+"name":"SPART",
+"type": "STRING"
+},
+{
+"description":"ZZDRUG_FMT",
+"mode": "NULLABLE",
+"name":"ZZDRUG_FMT",
+"type": "STRING"
+},
+{
+"description":"ZZDIN_NUM",
+"mode": "NULLABLE",
+"name":"ZZDIN_NUM",
+"type": "STRING"
+},
+{
+"description":"ZZENV_FRND",
+"mode": "NULLABLE",
+"name":"ZZENV_FRND",
+"type": "STRING"
+},
+{
+"description":"ZZETH_CD",
+"mode": "NULLABLE",
+"name":"ZZETH_CD",
+"type": "STRING"
+},
+{
+"description":"EXTWG",
+"mode": "NULLABLE",
+"name":"EXTWG",
+"type": "STRING"
+},
+{
+"description":"ZZFAB_KS",
+"mode": "NULLABLE",
+"name":"ZZFAB_KS",
+"type": "STRING"
+},
+{
+"description":"ZZFAB_WOV",
+"mode": "NULLABLE",
+"name":"ZZFAB_WOV",
+"type": "STRING"
+},
+{
+"description":"ZZFAIR_TR",
+"mode": "NULLABLE",
+"name":"ZZFAIR_TR",
+"type": "STRING"
+},
+{
+"description":"FASHGRD",
+"mode": "NULLABLE",
+"name":"FASHGRD",
+"type": "STRING"
+},
+{
+"description":"ZZFASHION",
+"mode": "NULLABLE",
+"name":"ZZFASHION",
+"type": "STRING"
+},
+{
+"description":"ZZFE_TARE",
+"mode": "NULLABLE",
+"name":"ZZFE_TARE",
+"type": "STRING"
+},
+{
+"description":"ZZFEA_CLAS",
+"mode": "NULLABLE",
+"name":"ZZFEA_CLAS",
+"type": "STRING"
+},
+{
+"description":"ZZFIX_WGT",
+"mode": "NULLABLE",
+"name":"ZZFIX_WGT",
+"type": "STRING"
+},
+{
+"description":"LVORM",
+"mode": "NULLABLE",
+"name":"LVORM",
+"type": "STRING"
+},
+{
+"description":"ZZGRP_NUM",
+"mode": "NULLABLE",
+"name":"ZZGRP_NUM",
+"type": "STRING"
+},
+{
+"description":"ZZFLR_ZN",
+"mode": "NULLABLE",
+"name":"ZZFLR_ZN",
+"type": "STRING"
+},
+{
+"description":"ZZFD_SVC",
+"mode": "NULLABLE",
+"name":"ZZFD_SVC",
+"type": "STRING"
+},
+{
+"description":"ZZFOR_BABY",
+"mode": "NULLABLE",
+"name":"ZZFOR_BABY",
+"type": "STRING"
+},
+{
+"description":"ZZFOR_KIDS",
+"mode": "NULLABLE",
+"name":"ZZFOR_KIDS",
+"type": "STRING"
+},
+{
+"description":"BFLME",
+"mode": "NULLABLE",
+"name":"BFLME",
+"type": "STRING"
+},
+{
+"description":"ZZGIFT",
+"mode": "NULLABLE",
+"name":"ZZGIFT",
+"type": "STRING"
+},
+{
+"description":"ZZGL_FREE",
+"mode": "NULLABLE",
+"name":"ZZGL_FREE",
+"type": "STRING"
+},
+{
+"description":"INHBR",
+"mode": "NULLABLE",
+"name":"INHBR",
+"type": "STRING"
+},
+{
+"description":"BRGEW",
+"mode": "NULLABLE",
+"name":"BRGEW",
+"type": "STRING"
+},
+{
+"description":"STOFF",
+"mode": "NULLABLE",
+"name":"STOFF",
+"type": "STRING"
+},
+{
+"description":"HAZMAT",
+"mode": "NULLABLE",
+"name":"HAZMAT",
+"type": "STRING"
+},
+{
+"description":"ZZHEA_CHK",
+"mode": "NULLABLE",
+"name":"ZZHEA_CHK",
+"type": "STRING"
+},
+{
+"description":"ZZHEART_SM",
+"mode": "NULLABLE",
+"name":"ZZHEART_SM",
+"type": "STRING"
+},
+{
+"description":"ZZHEEL_HGT",
+"mode": "NULLABLE",
+"name":"ZZHEEL_HGT",
+"type": "STRING"
+},
+{
+"description":"HOEHE",
+"mode": "NULLABLE",
+"name":"HOEHE",
+"type": "STRING"
+},
+{
+"description":"ZZHIGH_FIB",
+"mode": "NULLABLE",
+"name":"ZZHIGH_FIB",
+"type": "STRING"
+},
+{
+"description":"ZZHOR_FREE",
+"mode": "NULLABLE",
+"name":"ZZHOR_FREE",
+"type": "STRING"
+},
+{
+"description":"ZZHOS_FTR",
+"mode": "NULLABLE",
+"name":"ZZHOS_FTR",
+"type": "STRING"
+},
+{
+"description":"ZZHYP_ALLG",
+"mode": "NULLABLE",
+"name":"ZZHYP_ALLG",
+"type": "STRING"
+},
+{
+"description":"XGCHP",
+"mode": "NULLABLE",
+"name":"XGCHP",
+"type": "STRING"
+},
+{
+"description":"MBRSH",
+"mode": "NULLABLE",
+"name":"MBRSH",
+"type": "STRING"
+},
+{
+"description":"NORMT",
+"mode": "NULLABLE",
+"name":"NORMT",
+"type": "STRING"
+},
+{
+"description":"ZZINGL_LBL",
+"mode": "NULLABLE",
+"name":"ZZINGL_LBL",
+"type": "STRING"
+},
+{
+"description":"ZZIN_STR",
+"mode": "NULLABLE",
+"name":"ZZIN_STR",
+"type": "STRING"
+},
+{
+"description":"ZZJUS_PERC",
+"mode": "NULLABLE",
+"name":"ZZJUS_PERC",
+"type": "STRING"
+},
+{
+"description":"ZZKVI",
+"mode": "NULLABLE",
+"name":"ZZKVI",
+"type": "STRING"
+},
+{
+"description":"ZZLAC_FREE",
+"mode": "NULLABLE",
+"name":"ZZLAC_FREE",
+"type": "STRING"
+},
+{
+"description":"ZZLEN_SK",
+"mode": "NULLABLE",
+"name":"ZZLEN_SK",
+"type": "STRING"
+},
+{
+"description":"ZZLICENSE",
+"mode": "NULLABLE",
+"name":"ZZLICENSE",
+"type": "STRING"
+},
+{
+"description":"ZZLIN_FILL",
+"mode": "NULLABLE",
+"name":"ZZLIN_FILL",
+"type": "STRING"
+},
+{
+"description":"ZZLIQ_PERC",
+"mode": "NULLABLE",
+"name":"ZZLIQ_PERC",
+"type": "STRING"
+},
+{
+"description":"ZZMFC_COU",
+"mode": "NULLABLE",
+"name":"ZZMFC_COU",
+"type": "STRING"
+},
+{
+"description":"MFRNR",
+"mode": "NULLABLE",
+"name":"MFRNR",
+"type": "STRING"
+},
+{
+"description":"MFRPN",
+"mode": "NULLABLE",
+"name":"MFRPN",
+"type": "STRING"
+},
+{
+"description":"ZZMARK_FEA",
+"mode": "NULLABLE",
+"name":"ZZMARK_FEA",
+"type": "STRING"
+},
+{
+"description":"ZZMEGAMAX",
+"mode": "NULLABLE",
+"name":"ZZMEGAMAX",
+"type": "STRING"
+},
+{
+"description":"RMATP",
+"mode": "NULLABLE",
+"name":"RMATP",
+"type": "STRING"
+},
+{
+"description":"ZZMSC_CERT",
+"mode": "NULLABLE",
+"name":"ZZMSC_CERT",
+"type": "STRING"
+},
+{
+"description":"AENAM",
+"mode": "NULLABLE",
+"name":"AENAM",
+"type": "STRING"
+},
+{
+"description":"ZZNECKLINE",
+"mode": "NULLABLE",
+"name":"ZZNECKLINE",
+"type": "STRING"
+},
+{
+"description":"INHAL",
+"mode": "NULLABLE",
+"name":"INHAL",
+"type": "STRING"
+},
+{
+"description":"NTGEW",
+"mode": "NULLABLE",
+"name":"NTGEW",
+"type": "STRING"
+},
+{
+"description":"VHART",
+"mode": "NULLABLE",
+"name":"VHART",
+"type": "STRING"
+},
+{
+"description":"ZZPANT_SIL",
+"mode": "NULLABLE",
+"name":"ZZPANT_SIL",
+"type": "STRING"
+},
+{
+"description":"ZZPEANUT_F",
+"mode": "NULLABLE",
+"name":"ZZPEANUT_F",
+"type": "STRING"
+},
+{
+"description":"ZZPER_COMMD_IND",
+"mode": "NULLABLE",
+"name":"ZZPER_COMMD_IND",
+"type": "STRING"
+},
+{
+"description":"ZZPRE_PRCD",
+"mode": "NULLABLE",
+"name":"ZZPRE_PRCD",
+"type": "STRING"
+},
+{
+"description":"ZZPRE_TKT",
+"mode": "NULLABLE",
+"name":"ZZPRE_TKT",
+"type": "STRING"
+},
+{
+"description":"ZZPRE_LBL",
+"mode": "NULLABLE",
+"name":"ZZPRE_LBL",
+"type": "STRING"
+},
+{
+"description":"ZZPRESENT",
+"mode": "NULLABLE",
+"name":"ZZPRESENT",
+"type": "STRING"
+},
+{
+"description":"PLGTP",
+"mode": "NULLABLE",
+"name":"PLGTP",
+"type": "STRING"
+},
+{
+"description":"ZZPRIN_SOL",
+"mode": "NULLABLE",
+"name":"ZZPRIN_SOL",
+"type": "STRING"
+},
+{
+"description":"BWVOR",
+"mode": "NULLABLE",
+"name":"BWVOR",
+"type": "STRING"
+},
+{
+"description":"PRDHA",
+"mode": "NULLABLE",
+"name":"PRDHA",
+"type": "STRING"
+},
+{
+"description":"BSTME",
+"mode": "NULLABLE",
+"name":"BSTME",
+"type": "STRING"
+},
+{
+"description":"ZZRANGE",
+"mode": "NULLABLE",
+"name":"ZZRANGE",
+"type": "STRING"
+},
+{
+"description":"ZZREA_HEAT",
+"mode": "NULLABLE",
+"name":"ZZREA_HEAT",
+"type": "STRING"
+},
+{
+"description":"ZZRED_FAT",
+"mode": "NULLABLE",
+"name":"ZZRED_FAT",
+"type": "STRING"
+},
+{
+"description":"ZZRED_SOD",
+"mode": "NULLABLE",
+"name":"ZZRED_SOD",
+"type": "STRING"
+},
+{
+"description":"ZZRPT_NEW",
+"mode": "NULLABLE",
+"name":"ZZRPT_NEW",
+"type": "STRING"
+},
+{
+"description":"ZZRTL_GST",
+"mode": "NULLABLE",
+"name":"ZZRTL_GST",
+"type": "STRING"
+},
+{
+"description":"ZZRET_RDY",
+"mode": "NULLABLE",
+"name":"ZZRET_RDY",
+"type": "STRING"
+},
+{
+"description":"SAITY",
+"mode": "NULLABLE",
+"name":"SAITY",
+"type": "STRING"
+},
+{
+"description":"ZZSCL_IND",
+"mode": "NULLABLE",
+"name":"ZZSCL_IND",
+"type": "STRING"
+},
+{
+"description":"ZZPRC_REQ",
+"mode": "NULLABLE",
+"name":"ZZPRC_REQ",
+"type": "STRING"
+},
+{
+"description":"ZZSEAFOOD",
+"mode": "NULLABLE",
+"name":"ZZSEAFOOD",
+"type": "STRING"
+},
+{
+"description":"SAISO",
+"mode": "NULLABLE",
+"name":"SAISO",
+"type": "STRING"
+},
+{
+"description":"SAISJ",
+"mode": "NULLABLE",
+"name":"SAISJ",
+"type": "STRING"
+},
+{
+"description":"ZZSET_FAB",
+"mode": "NULLABLE",
+"name":"ZZSET_FAB",
+"type": "STRING"
+},
+{
+"description":"ZZSET_SIL",
+"mode": "NULLABLE",
+"name":"ZZSET_SIL",
+"type": "STRING"
+},
+{
+"description":"ZZSHRS",
+"mode": "NULLABLE",
+"name":"ZZSHRS",
+"type": "STRING"
+},
+{
+"description":"ZZSHP_VIA",
+"mode": "NULLABLE",
+"name":"ZZSHP_VIA",
+"type": "STRING"
+},
+{
+"description":"GROES",
+"mode": "NULLABLE",
+"name":"GROES",
+"type": "STRING"
+},
+{
+"description":"ZZSLV_LEN",
+"mode": "NULLABLE",
+"name":"ZZSLV_LEN",
+"type": "STRING"
+},
+{
+"description":"BWSCL",
+"mode": "NULLABLE",
+"name":"BWSCL",
+"type": "STRING"
+},
+{
+"description":"ZZUNT_UOM",
+"mode": "NULLABLE",
+"name":"ZZUNT_UOM",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE1",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE1",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE2",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE2",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE3",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE3",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE4",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE4",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE5",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE5",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE1KG",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE1KG",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE2KG",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE2KG",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE3KG",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE3KG",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE4KG",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE4KG",
+"type": "STRING"
+},
+{
+"description":"ZZSTW_FEE5KG",
+"mode": "NULLABLE",
+"name":"ZZSTW_FEE5KG",
+"type": "STRING"
+},
+{
+"description":"ZZSTF_LBL",
+"mode": "NULLABLE",
+"name":"ZZSTF_LBL",
+"type": "STRING"
+},
+{
+"description":"ZZSUPP_ITEM_IND",
+"mode": "NULLABLE",
+"name":"ZZSUPP_ITEM_IND",
+"type": "STRING"
+},
+{
+"description":"ZZSWE_IND",
+"mode": "NULLABLE",
+"name":"ZZSWE_IND",
+"type": "STRING"
+},
+{
+"description":"ZZPKG_METH",
+"mode": "NULLABLE",
+"name":"ZZPKG_METH",
+"type": "STRING"
+},
+{
+"description":"ZZTARE_REQ",
+"mode": "NULLABLE",
+"name":"ZZTARE_REQ",
+"type": "STRING"
+},
+{
+"description":"ZZWRP_QTY",
+"mode": "NULLABLE",
+"name":"ZZWRP_QTY",
+"type": "STRING"
+},
+{
+"description":"ZZUNWRPQTY",
+"mode": "NULLABLE",
+"name":"ZZUNWRPQTY",
+"type": "STRING"
+},
+{
+"description":"TAKLV",
+"mode": "NULLABLE",
+"name":"TAKLV",
+"type": "STRING"
+},
+{
+"description":"ZZUT_TAX",
+"mode": "NULLABLE",
+"name":"ZZUT_TAX",
+"type": "STRING"
+},
+{
+"description":"ZZTEXT_PKG",
+"mode": "NULLABLE",
+"name":"ZZTEXT_PKG",
+"type": "STRING"
+},
+{
+"description":"ZZTHEME",
+"mode": "NULLABLE",
+"name":"ZZTHEME",
+"type": "STRING"
+},
+{
+"description":"ZZTOP_LEN",
+"mode": "NULLABLE",
+"name":"ZZTOP_LEN",
+"type": "STRING"
+},
+{
+"description":"MEABM",
+"mode": "NULLABLE",
+"name":"MEABM",
+"type": "STRING"
+},
+{
+"description":"ZZVAR_PCT",
+"mode": "NULLABLE",
+"name":"ZZVAR_PCT",
+"type": "STRING"
+},
+{
+"description":"TARE_VAR",
+"mode": "NULLABLE",
+"name":"TARE_VAR",
+"type": "STRING"
+},
+{
+"description":"ZZVIT_ENRC",
+"mode": "NULLABLE",
+"name":"ZZVIT_ENRC",
+"type": "STRING"
+},
+{
+"description":"VOLUM",
+"mode": "NULLABLE",
+"name":"VOLUM",
+"type": "STRING"
+},
+{
+"description":"VOLEH",
+"mode": "NULLABLE",
+"name":"VOLEH",
+"type": "STRING"
+},
+{
+"description":"ZZWET_TYPE",
+"mode": "NULLABLE",
+"name":"ZZWET_TYPE",
+"type": "STRING"
+},
+{
+"description":"ZZITMCLS",
+"mode": "NULLABLE",
+"name":"ZZITMCLS",
+"type": "STRING"
+},
+{
+"description":"GEWEI",
+"mode": "NULLABLE",
+"name":"GEWEI",
+"type": "STRING"
+},
+{
+"description":"ZZWGT_REQ",
+"mode": "NULLABLE",
+"name":"ZZWGT_REQ",
+"type": "STRING"
+},
+{
+"description":"BREIT",
+"mode": "NULLABLE",
+"name":"BREIT",
+"type": "STRING"
+},
+{
+"description":"MAKTX_EN",
+"mode": "NULLABLE",
+"name":"MAKTX_EN",
+"type": "STRING"
+},
+{
+"description":"MAKTX_FR",
+"mode": "NULLABLE",
+"name":"MAKTX_FR",
+"type": "STRING"
+},
+{
+"description":"WLADG",
+"mode": "NULLABLE",
+"name":"WLADG",
+"type": "STRING"
+},
+{
+"description":"WVRKM",
+"mode": "NULLABLE",
+"name":"WVRKM",
+"type": "STRING"
+},
+{
+"description":"WAUSM",
+"mode": "NULLABLE",
+"name":"WAUSM",
+"type": "STRING"
+},
+{
+"description":"NODE",
+"mode": "NULLABLE",
+"name":"NODE",
+"type": "STRING"
+},
+{
+"description":"BRAND_TYPE",
+"mode": "NULLABLE",
+"name":"BRAND_TYPE",
+"type": "STRING"
+},
+{
+"description":"BRAND_DESCR_EN",
+"mode": "NULLABLE",
+"name":"BRAND_DESCR_EN",
+"type": "STRING"
+},
+{
+"description":"BRAND_DESCR_FR",
+"mode": "NULLABLE",
+"name":"BRAND_DESCR_FR",
+"type": "STRING"
+},
+{
+"description":"WWGDA",
+"mode": "NULLABLE",
+"name":"WWGDA",
+"type": "STRING"
+},
+{
+"description":"WWGPA",
+"mode": "NULLABLE",
+"name":"WWGPA",
+"type": "STRING"
+},
+{
+"description":"ATWRT",
+"mode": "NULLABLE",
+"name":"ATWRT",
+"type": "STRING"
+},
+{
+"description":"BBTYP",
+"mode": "NULLABLE",
+"name":"BBTYP",
+"type": "STRING"
+},
+{
+"description":"ZZGUIDRATING",
+"mode": "NULLABLE",
+"name":"ZZGUIDRATING",
+"type": "STRING"
+},
+{
+"description":"ZZGUIDRATING_STAT",
+"mode": "NULLABLE",
+"name":"ZZGUIDRATING_STAT",
+"type": "STRING"
+}
+]
