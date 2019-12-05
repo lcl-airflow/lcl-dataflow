@@ -20,4 +20,4 @@ import bq2bq
 
 if __name__ == '__main__':
   logging.getLogger().setLevel(logging.INFO)
-  b2bq.run()
+  bq2bq.run()

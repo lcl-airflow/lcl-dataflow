@@ -17,17 +17,29 @@ def run(argv=None):
   parser.add_argument('--model', dest='model', required=True,
                       help='Checkpoint file of the model.')
   parser.add_argument('--runner', dest='runner', required=True)
-  parser.add_argument('--project', dest='project', required=True) 
+  parser.add_argument('--project', dest='project' , required=True) 
   known_args, pipeline_args = parser.parse_known_args(argv)
-  print ( known_args )
-  p3 = beam.Pipeline()
+  print (known_args.project)
+  
+
+
+  options = {
+    'project':known_args.project,
+    'runner:':known_args.runner,
+    'streaming': False
+  }
+
+  options = PipelineOptions(flags=[], **options)
+  #pipeline_options = PipelineOptions(pipeline_args) 
+
+  #pipeline_options = PipelineOptions(pipeline_args)
+
+
+  p3 = beam.Pipeline(options=options)
   lines1 = (p3
-           | 'QueryTable' >> beam.io.Read(beam.io.BigQuerySource(
-            query='SELECT max_temperature FROM '\
-              '[clouddataflow-readonly:samples.weather_stations]'))
+            | 'QueryTable' >> beam.io.Read(beam.io.BigQuerySource(
+            query='SELECT MATNR FROM '\
+              '[playground-s-11-2aba4d:sap.mara]'))
            )
-  p3.run()
-
-
-    
-       
+  result = p3.run()
+  result.wait_until_finish()

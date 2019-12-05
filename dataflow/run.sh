@@ -1,4 +1,4 @@
-PROJECT=$(gcloud config list project --format "value(core.project)")
+export PROJECT=$(gcloud config list project --format "value(core.project)")
 BUCKET=gs://$PROJECT-dataflow
 python ../dataflow/run.py \
     --runner DataflowRunner \
